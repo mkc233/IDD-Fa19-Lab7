@@ -32,10 +32,7 @@ void loop() {
   if (buttonState != newState) {
     buttonState = newState;
     if(buttonState == HIGH){
-      Serial.println("light"); //note println put a /r/n at the end of a line
-    }
-    else{
-      Serial.println("dark");
+      Serial.println("1st Picture"); //note println put a /r/n at the end of a line
     }
   }
 
@@ -43,10 +40,7 @@ void loop() {
   if (buttonState2 != newState2) {
     buttonState2 = newState2;
     if(buttonState2 == HIGH){
-      Serial.println("light"); //note println put a /r/n at the end of a line
-    }
-    else{
-      Serial.println("dark");
+      Serial.println("2nd Picture"); //note println put a /r/n at the end of a line
     }
   }
 }
