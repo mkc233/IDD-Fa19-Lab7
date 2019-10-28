@@ -27,6 +27,23 @@ The socket.on('takePicture', function() is added to prompt the camera to take a 
 
 [Video Doorbell](https://youtu.be/Fq2nImVmxTQ)
 
+The below code was added under the parser to take pictures when the button is pressed.
+```
+serial.pipe(parser);
+parser.on('data', function(data) {
+  console.log('Data:', data);
+  io.emit('server-msg', data);
+  switch (data){
+    case "light":
+      var imageName = new Date().toString().replace(/[&\/\\#,+()$~%.'":*?<>{}\s-]/g, '');
+      console.log('making a making a picture at'+ imageName);
+      NodeWebcam.capture('public/'+imageName, opts, function( err, data ) {
+      io.emit('newPicture',(imageName+'.jpg'));
+  });
+    break;
+}
+```
+
 ## Part C. Make it your own
 
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
