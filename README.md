@@ -1,6 +1,6 @@
 # Video Doorbell, Lab 7
 
-*A lab report by John Q. Student*
+*A lab report by Michael Chan*
 
 ### In This Report
 
@@ -11,6 +11,8 @@
 ## Part A. HelloYou from the Raspberry Pi
 
 **a. Link to a video of your HelloYou sketch running.**
+
+[HelloYou](https://youtu.be/XgwcEyXctdU)
 
 ## Part B. Web Camera
 
