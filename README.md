@@ -25,7 +25,7 @@ The socket.on('takePicture', function() is added to prompt the camera to take a 
 
 **b. Include a video of your working video doorbell**
 
-[Video Doorbell](https://youtu.be/cfh9vJgfEww)
+[Video Doorbell](https://youtu.be/Fq2nImVmxTQ)
 
 ## Part C. Make it your own
 
