@@ -48,4 +48,10 @@ parser.on('data', function(data) {
 
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
 
+[Nyancat](https://youtu.be/HWAwThVGedk)
+
 **b. Upload a video of your working modified project**
+
+I updated the code to allow for two images to be taken either by pressing the buttons the breadboard or pushing the buttons on the website.  The two images can then be compared by the user.  
+
+[Picture Comparison]
